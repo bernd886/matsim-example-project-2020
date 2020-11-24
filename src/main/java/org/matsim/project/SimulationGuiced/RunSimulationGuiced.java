@@ -20,7 +20,7 @@ public class RunSimulationGuiced {
                 // put implementations underneath its interface
                 // push up to cloud system
                 this.bind( Simulation.class ).to( SimulationDefaultImpl.class );
-                //this.bind( Helper.class ).to( HelperDefaultImpl.class );
+                // this.bind( Helper.class ).to( HelperDefaultImpl.class );
                 this.bind( Helper.class ).to( HelperMyImpl.class );
             }
         };

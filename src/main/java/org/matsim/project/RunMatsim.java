@@ -43,7 +43,6 @@ public class RunMatsim{
 		config.controler().setOverwriteFileSetting( OutputDirectoryHierarchy.OverwriteFileSetting.deleteDirectoryIfExists );
 
 		// possibly modify config here
-		
 		// ---
 		
 		Scenario scenario = ScenarioUtils.loadScenario(config) ;

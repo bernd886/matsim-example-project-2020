@@ -17,6 +17,7 @@ public class MyRunMatsim {
         Config config = ConfigUtils.createConfig() ;
         config.controler().setOverwriteFileSetting( OutputDirectoryHierarchy.OverwriteFileSetting.deleteDirectoryIfExists ) ;
         config.controler().setLastIteration( 0 ) ;
+        // possibly modify config here
         //--
 
         // scenario

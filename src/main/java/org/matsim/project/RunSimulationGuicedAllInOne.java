@@ -3,7 +3,7 @@ package org.matsim.project;
 import com.google.inject.*;
 import com.google.inject.Module;
 
-public class RunSimulationWithGuiceTut {
+public class RunSimulationGuicedAllInOne {
 
     public static void main(String[] args) {
 
