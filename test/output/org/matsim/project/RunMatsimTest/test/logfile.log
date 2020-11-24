@@ -1,75 +1,75 @@
-2020-11-11 20:10:04,681  INFO Gbl:63 JVM: 11.0.9; Ubuntu; mixed mode, sharing; 64-bit
-2020-11-11 20:10:04,681  INFO Gbl:67 OS: Linux; 5.4.0-52-generic; amd64
-2020-11-11 20:10:04,681  INFO Gbl:70 CPU cores: 4
-2020-11-11 20:10:04,684  INFO Gbl:71 max. Memory: 2996.0MB (3141533696B)
-2020-11-11 20:10:04,685  INFO Gbl:109 MATSim-Build: rfb60e5ba361f2e5555974eafef84eafcc3dcc96d (2019-12-02 03:21:25)
-2020-11-11 20:10:04,690  INFO ControlerListenerManagerImpl:107 calling notifyStartup on org.matsim.guice.DependencyGraphControlerListener
-2020-11-11 20:10:04,696  INFO MemoryObserver:41 used RAM: 36 MB  free: 153 MB  total: 190 MB
-2020-11-11 20:10:04,771  INFO ControlerListenerManagerImpl:107 calling notifyStartup on org.matsim.counts.CountsControlerListener
-2020-11-11 20:10:04,772  INFO ControlerListenerManagerImpl:107 calling notifyStartup on org.matsim.analysis.ModeStatsControlerListener
-2020-11-11 20:10:04,776  INFO PreProcessDijkstra:118 nodes in dead ends: 0 (total nodes: 15). Done in 1 ms
-2020-11-11 20:10:04,776  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
-2020-11-11 20:10:04,776  INFO PreProcessLandmarks:112 Putting landmarks on network...
-2020-11-11 20:10:04,777  INFO LandmarkerPieSlices:96 Filling sectors...
-2020-11-11 20:10:04,778  INFO LandmarkerPieSlices:163 There is no node in sector 0!
-2020-11-11 20:10:04,778  INFO LandmarkerPieSlices:163 There is no node in sector 1!
-2020-11-11 20:10:04,779  INFO LandmarkerPieSlices:163 There is no node in sector 2!
-2020-11-11 20:10:04,779  INFO LandmarkerPieSlices:163 There is no node in sector 3!
-2020-11-11 20:10:04,779  INFO LandmarkerPieSlices:163 There is no node in sector 4!
-2020-11-11 20:10:04,779  INFO LandmarkerPieSlices:163 There is no node in sector 5!
-2020-11-11 20:10:04,779  INFO LandmarkerPieSlices:163 There is no node in sector 6!
-2020-11-11 20:10:04,780  INFO LandmarkerPieSlices:163 There is no node in sector 7!
-2020-11-11 20:10:04,780  INFO LandmarkerPieSlices:163 There is no node in sector 8!
-2020-11-11 20:10:04,780  INFO LandmarkerPieSlices:163 There is no node in sector 9!
-2020-11-11 20:10:04,780  INFO LandmarkerPieSlices:163 There is no node in sector 10!
-2020-11-11 20:10:04,780  INFO LandmarkerPieSlices:163 There is no node in sector 11!
-2020-11-11 20:10:04,781  INFO LandmarkerPieSlices:163 There is no node in sector 12!
-2020-11-11 20:10:04,781  INFO LandmarkerPieSlices:163 There is no node in sector 13!
-2020-11-11 20:10:04,781  INFO LandmarkerPieSlices:163 There is no node in sector 14!
-2020-11-11 20:10:04,781  INFO LandmarkerPieSlices:100 Reducing number of landmarks from 16 to 1...
-2020-11-11 20:10:04,782  INFO LandmarkerPieSlices:107 Refining landmarks...
-2020-11-11 20:10:04,782  INFO LandmarkerPieSlices:109 done
-2020-11-11 20:10:04,782  INFO PreProcessLandmarks:115 done in 5 ms
-2020-11-11 20:10:04,782  INFO PreProcessLandmarks:117 Initializing landmarks data
-2020-11-11 20:10:04,782  INFO PreProcessLandmarks:129 Calculating distance from each node to each of the 16 landmarks using 2 threads...
-2020-11-11 20:10:04,784  INFO PreProcessLandmarks:139 wait for landmarks Calculator to finish...
-2020-11-11 20:10:04,787  INFO PreProcessLandmarks:161 done in 4 ms
-2020-11-11 20:10:04,792  INFO NetworkImpl:166  node # 1
-2020-11-11 20:10:04,793  INFO NetworkImpl:166  node # 4
-2020-11-11 20:10:04,794  INFO NetworkImpl:162  link # 1
-2020-11-11 20:10:04,794  INFO NetworkImpl:162  link # 4
-2020-11-11 20:10:04,795  INFO NetworkImpl:162  link # 16
-2020-11-11 20:10:04,797  INFO PreProcessDijkstra:118 nodes in dead ends: 0 (total nodes: 15). Done in 1 ms
-2020-11-11 20:10:04,797  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
-2020-11-11 20:10:04,797  INFO PreProcessLandmarks:112 Putting landmarks on network...
-2020-11-11 20:10:04,798  INFO LandmarkerPieSlices:96 Filling sectors...
-2020-11-11 20:10:04,798  INFO LandmarkerPieSlices:163 There is no node in sector 0!
-2020-11-11 20:10:04,798  INFO LandmarkerPieSlices:163 There is no node in sector 1!
-2020-11-11 20:10:04,799  INFO LandmarkerPieSlices:163 There is no node in sector 2!
-2020-11-11 20:10:04,799  INFO LandmarkerPieSlices:163 There is no node in sector 3!
-2020-11-11 20:10:04,799  INFO LandmarkerPieSlices:163 There is no node in sector 4!
-2020-11-11 20:10:04,799  INFO LandmarkerPieSlices:163 There is no node in sector 5!
-2020-11-11 20:10:04,800  INFO LandmarkerPieSlices:163 There is no node in sector 6!
-2020-11-11 20:10:04,800  INFO LandmarkerPieSlices:163 There is no node in sector 7!
-2020-11-11 20:10:04,800  INFO LandmarkerPieSlices:163 There is no node in sector 8!
-2020-11-11 20:10:04,800  INFO LandmarkerPieSlices:163 There is no node in sector 9!
-2020-11-11 20:10:04,801  INFO LandmarkerPieSlices:163 There is no node in sector 10!
-2020-11-11 20:10:04,801  INFO LandmarkerPieSlices:163 There is no node in sector 11!
-2020-11-11 20:10:04,801  INFO LandmarkerPieSlices:163 There is no node in sector 12!
-2020-11-11 20:10:04,801  INFO LandmarkerPieSlices:163 There is no node in sector 13!
-2020-11-11 20:10:04,801  INFO LandmarkerPieSlices:163 There is no node in sector 14!
-2020-11-11 20:10:04,802  INFO LandmarkerPieSlices:100 Reducing number of landmarks from 16 to 1...
-2020-11-11 20:10:04,802  INFO LandmarkerPieSlices:107 Refining landmarks...
-2020-11-11 20:10:04,802  INFO LandmarkerPieSlices:109 done
-2020-11-11 20:10:04,803  INFO PreProcessLandmarks:115 done in 5 ms
-2020-11-11 20:10:04,803  INFO PreProcessLandmarks:117 Initializing landmarks data
-2020-11-11 20:10:04,803  INFO PreProcessLandmarks:129 Calculating distance from each node to each of the 16 landmarks using 2 threads...
-2020-11-11 20:10:04,803  INFO PreProcessLandmarks:139 wait for landmarks Calculator to finish...
-2020-11-11 20:10:04,804  INFO PreProcessLandmarks:161 done in 1 ms
-2020-11-11 20:10:04,805  INFO ControlerListenerManagerImpl:107 calling notifyStartup on org.matsim.analysis.ScoreStatsControlerListener
-2020-11-11 20:10:04,806  INFO ControlerListenerManagerImpl:110 all ControlerStartupListeners called.
-2020-11-11 20:10:04,806  INFO ControlerUtils:58 config dump before iterations start
-2020-11-11 20:10:04,818  INFO ControlerUtils:62 
+2020-11-22 19:07:57,854  INFO Gbl:63 JVM: 11.0.9.1; Ubuntu; mixed mode, sharing; 64-bit
+2020-11-22 19:07:57,854  INFO Gbl:67 OS: Linux; 5.4.0-54-generic; amd64
+2020-11-22 19:07:57,855  INFO Gbl:70 CPU cores: 4
+2020-11-22 19:07:57,857  INFO Gbl:71 max. Memory: 2996.0MB (3141533696B)
+2020-11-22 19:07:57,858  INFO Gbl:109 MATSim-Build: rfb60e5ba361f2e5555974eafef84eafcc3dcc96d (2019-12-02 03:21:25)
+2020-11-22 19:07:57,862  INFO ControlerListenerManagerImpl:107 calling notifyStartup on org.matsim.guice.DependencyGraphControlerListener
+2020-11-22 19:07:57,860  INFO MemoryObserver:41 used RAM: 68 MB  free: 121 MB  total: 190 MB
+2020-11-22 19:07:57,972  INFO ControlerListenerManagerImpl:107 calling notifyStartup on org.matsim.counts.CountsControlerListener
+2020-11-22 19:07:57,973  INFO ControlerListenerManagerImpl:107 calling notifyStartup on org.matsim.analysis.ModeStatsControlerListener
+2020-11-22 19:07:57,976  INFO PreProcessDijkstra:118 nodes in dead ends: 0 (total nodes: 15). Done in 0 ms
+2020-11-22 19:07:57,977  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2020-11-22 19:07:57,977  INFO PreProcessLandmarks:112 Putting landmarks on network...
+2020-11-22 19:07:57,978  INFO LandmarkerPieSlices:96 Filling sectors...
+2020-11-22 19:07:57,979  INFO LandmarkerPieSlices:163 There is no node in sector 0!
+2020-11-22 19:07:57,979  INFO LandmarkerPieSlices:163 There is no node in sector 1!
+2020-11-22 19:07:57,979  INFO LandmarkerPieSlices:163 There is no node in sector 2!
+2020-11-22 19:07:57,980  INFO LandmarkerPieSlices:163 There is no node in sector 3!
+2020-11-22 19:07:57,980  INFO LandmarkerPieSlices:163 There is no node in sector 4!
+2020-11-22 19:07:57,980  INFO LandmarkerPieSlices:163 There is no node in sector 5!
+2020-11-22 19:07:57,980  INFO LandmarkerPieSlices:163 There is no node in sector 6!
+2020-11-22 19:07:57,980  INFO LandmarkerPieSlices:163 There is no node in sector 7!
+2020-11-22 19:07:57,981  INFO LandmarkerPieSlices:163 There is no node in sector 8!
+2020-11-22 19:07:57,981  INFO LandmarkerPieSlices:163 There is no node in sector 9!
+2020-11-22 19:07:57,981  INFO LandmarkerPieSlices:163 There is no node in sector 10!
+2020-11-22 19:07:57,981  INFO LandmarkerPieSlices:163 There is no node in sector 11!
+2020-11-22 19:07:57,982  INFO LandmarkerPieSlices:163 There is no node in sector 12!
+2020-11-22 19:07:57,982  INFO LandmarkerPieSlices:163 There is no node in sector 13!
+2020-11-22 19:07:57,982  INFO LandmarkerPieSlices:163 There is no node in sector 14!
+2020-11-22 19:07:57,982  INFO LandmarkerPieSlices:100 Reducing number of landmarks from 16 to 1...
+2020-11-22 19:07:57,983  INFO LandmarkerPieSlices:107 Refining landmarks...
+2020-11-22 19:07:57,983  INFO LandmarkerPieSlices:109 done
+2020-11-22 19:07:57,983  INFO PreProcessLandmarks:115 done in 5 ms
+2020-11-22 19:07:57,983  INFO PreProcessLandmarks:117 Initializing landmarks data
+2020-11-22 19:07:57,983  INFO PreProcessLandmarks:129 Calculating distance from each node to each of the 16 landmarks using 2 threads...
+2020-11-22 19:07:57,986  INFO PreProcessLandmarks:139 wait for landmarks Calculator to finish...
+2020-11-22 19:07:57,988  INFO PreProcessLandmarks:161 done in 4 ms
+2020-11-22 19:07:57,992  INFO NetworkImpl:166  node # 1
+2020-11-22 19:07:57,993  INFO NetworkImpl:166  node # 4
+2020-11-22 19:07:57,994  INFO NetworkImpl:162  link # 1
+2020-11-22 19:07:57,994  INFO NetworkImpl:162  link # 4
+2020-11-22 19:07:57,995  INFO NetworkImpl:162  link # 16
+2020-11-22 19:07:57,997  INFO PreProcessDijkstra:118 nodes in dead ends: 0 (total nodes: 15). Done in 1 ms
+2020-11-22 19:07:57,997  WARN PreProcessEuclidean:59 There are links with stored length smaller than their Euclidean distance in this network. Thus, A* cannot guarantee to calculate the least-cost paths between two nodes.
+2020-11-22 19:07:57,997  INFO PreProcessLandmarks:112 Putting landmarks on network...
+2020-11-22 19:07:57,997  INFO LandmarkerPieSlices:96 Filling sectors...
+2020-11-22 19:07:57,998  INFO LandmarkerPieSlices:163 There is no node in sector 0!
+2020-11-22 19:07:57,998  INFO LandmarkerPieSlices:163 There is no node in sector 1!
+2020-11-22 19:07:57,998  INFO LandmarkerPieSlices:163 There is no node in sector 2!
+2020-11-22 19:07:57,999  INFO LandmarkerPieSlices:163 There is no node in sector 3!
+2020-11-22 19:07:57,999  INFO LandmarkerPieSlices:163 There is no node in sector 4!
+2020-11-22 19:07:57,999  INFO LandmarkerPieSlices:163 There is no node in sector 5!
+2020-11-22 19:07:57,999  INFO LandmarkerPieSlices:163 There is no node in sector 6!
+2020-11-22 19:07:58,000  INFO LandmarkerPieSlices:163 There is no node in sector 7!
+2020-11-22 19:07:58,000  INFO LandmarkerPieSlices:163 There is no node in sector 8!
+2020-11-22 19:07:58,000  INFO LandmarkerPieSlices:163 There is no node in sector 9!
+2020-11-22 19:07:58,001  INFO LandmarkerPieSlices:163 There is no node in sector 10!
+2020-11-22 19:07:58,001  INFO LandmarkerPieSlices:163 There is no node in sector 11!
+2020-11-22 19:07:58,001  INFO LandmarkerPieSlices:163 There is no node in sector 12!
+2020-11-22 19:07:58,001  INFO LandmarkerPieSlices:163 There is no node in sector 13!
+2020-11-22 19:07:58,002  INFO LandmarkerPieSlices:163 There is no node in sector 14!
+2020-11-22 19:07:58,002  INFO LandmarkerPieSlices:100 Reducing number of landmarks from 16 to 1...
+2020-11-22 19:07:58,002  INFO LandmarkerPieSlices:107 Refining landmarks...
+2020-11-22 19:07:58,003  INFO LandmarkerPieSlices:109 done
+2020-11-22 19:07:58,003  INFO PreProcessLandmarks:115 done in 6 ms
+2020-11-22 19:07:58,003  INFO PreProcessLandmarks:117 Initializing landmarks data
+2020-11-22 19:07:58,003  INFO PreProcessLandmarks:129 Calculating distance from each node to each of the 16 landmarks using 2 threads...
+2020-11-22 19:07:58,006  INFO PreProcessLandmarks:139 wait for landmarks Calculator to finish...
+2020-11-22 19:07:58,007  INFO PreProcessLandmarks:161 done in 3 ms
+2020-11-22 19:07:58,008  INFO ControlerListenerManagerImpl:107 calling notifyStartup on org.matsim.analysis.ScoreStatsControlerListener
+2020-11-22 19:07:58,009  INFO ControlerListenerManagerImpl:110 all ControlerStartupListeners called.
+2020-11-22 19:07:58,009  INFO ControlerUtils:58 config dump before iterations start
+2020-11-22 19:07:58,022  INFO ControlerUtils:62 
 
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE config SYSTEM "http://www.matsim.org/files/dtd/config_v2.dtd">
@@ -517,114 +517,114 @@
 
 </config>
 
-2020-11-11 20:10:04,820  INFO ControlerUtils:63 Complete config dump done.
-2020-11-11 20:10:04,821  INFO ControlerUtils:64 Checking consistency of config...
-2020-11-11 20:10:04,821  INFO VspConfigConsistencyCheckerImpl:58 NOT running vsp config consistency check because vsp defaults checking level is set to IGNORE
-2020-11-11 20:10:04,825  INFO ControlerUtils:66 Checking consistency of config done.
-2020-11-11 20:10:04,827  WARN XY2LinksForFacilities:50 There is no link for at least a facility. Assigning links for such facilities from coords.
-2020-11-11 20:10:04,827  WARN XY2LinksForFacilities:51  This message given only once.
-2020-11-11 20:10:04,827  INFO NetworkImpl:425 building QuadTree for nodes: xrange(-20001.0,5001.0); yrange(-10001.0,5926.0)
-2020-11-11 20:10:04,829  INFO NetworkImpl:434 Building QuadTree took 0.002 seconds.
-2020-11-11 20:10:04,831  WARN PrepareForSimImpl:191 'usePersonIdForMissingVehicleId' is deprecated. It will be removed soon.
-2020-11-11 20:10:04,832  INFO Counter:69 [VehiclesImpl] added vehicle # 1
-2020-11-11 20:10:04,833  INFO Counter:69 [VehiclesImpl] added vehicle # 2
-2020-11-11 20:10:04,833  INFO Counter:69 [VehiclesImpl] added vehicle # 4
-2020-11-11 20:10:04,833  INFO Counter:69 [VehiclesImpl] added vehicle # 8
-2020-11-11 20:10:04,833  INFO Counter:69 [VehiclesImpl] added vehicle # 16
-2020-11-11 20:10:04,834  INFO Counter:69 [VehiclesImpl] added vehicle # 32
-2020-11-11 20:10:04,835  INFO Counter:69 [VehiclesImpl] added vehicle # 64
-2020-11-11 20:10:04,846  INFO Counter:69 [PersonPrepareForSim] handled person # 2
-2020-11-11 20:10:04,846  INFO Counter:69 [PersonPrepareForSim] handled person # 1
-2020-11-11 20:10:04,846  INFO Counter:69 [PersonPrepareForSim] handled person # 4
-2020-11-11 20:10:04,847  INFO Counter:69 [PersonPrepareForSim] handled person # 8
-2020-11-11 20:10:04,847  INFO Counter:69 [PersonPrepareForSim] handled person # 16
-2020-11-11 20:10:04,847  INFO Counter:69 [PersonPrepareForSim] handled person # 32
-2020-11-11 20:10:04,849  INFO Counter:69 [PersonPrepareForSim] handled person # 64
-2020-11-11 20:10:04,850  INFO Counter:74 [PersonPrepareForSim] handled person # 100
-2020-11-11 20:10:04,850  INFO AbstractController:124 ###################################################
-2020-11-11 20:10:04,851  INFO AbstractController:125 ### ITERATION 0 BEGINS
-2020-11-11 20:10:04,851  INFO ControlerListenerManagerImpl:145 calling notifyIterationStarts on org.matsim.analysis.LegHistogramListener
-2020-11-11 20:10:04,852  INFO ControlerListenerManagerImpl:145 calling notifyIterationStarts on org.matsim.analysis.LinkStatsControlerListener
-2020-11-11 20:10:04,852  INFO ControlerListenerManagerImpl:145 calling notifyIterationStarts on org.matsim.core.replanning.ReplanningContextImpl
-2020-11-11 20:10:04,852  INFO ControlerListenerManagerImpl:145 calling notifyIterationStarts on org.matsim.core.scoring.ExperiencedPlansServiceImpl$1
-2020-11-11 20:10:04,853  INFO ControlerListenerManagerImpl:145 calling notifyIterationStarts on org.matsim.core.scoring.ScoringFunctionsForPopulation$1
-2020-11-11 20:10:04,862  INFO ControlerListenerManagerImpl:148 [it.0] all ControlerIterationStartsListeners called.
-2020-11-11 20:10:04,863  INFO ControlerListenerManagerImpl:224 calling notifyBeforeMobsim on org.matsim.core.controler.corelisteners.EventsHandlingImpl
-2020-11-11 20:10:04,863  INFO EventsManagerImpl:170 resetting Event-Handlers
-2020-11-11 20:10:04,864  INFO EventsManagerImpl:177   org.matsim.core.trafficmonitoring.TravelTimeCalculator
-2020-11-11 20:10:04,864  INFO EventsManagerImpl:177   org.matsim.core.scoring.EventsToLegsAndActivities
-2020-11-11 20:10:04,864  INFO EventsManagerImpl:177   org.matsim.analysis.VolumesAnalyzer
-2020-11-11 20:10:04,864  INFO EventsManagerImpl:177   org.matsim.core.scoring.ScoringFunctionsForPopulation
-2020-11-11 20:10:04,865  INFO EventsManagerImpl:177   org.matsim.analysis.LegHistogram
-2020-11-11 20:10:04,865  INFO EventsManagerImpl:177   org.matsim.analysis.CalcLegTimes
-2020-11-11 20:10:04,867  INFO EventsManagerImpl:144 adding Event-Handler: org.matsim.core.events.algorithms.EventWriterXML
-2020-11-11 20:10:04,867  INFO EventsManagerImpl:148   org.matsim.core.events.algorithms.EventWriter
-2020-11-11 20:10:04,867  INFO EventsManagerImpl:148   org.matsim.core.events.handler.BasicEventHandler
-2020-11-11 20:10:04,868  INFO EventsManagerImpl:207     > org.matsim.api.core.v01.events.Event
-2020-11-11 20:10:04,873  INFO EventsManagerImpl:156 
-2020-11-11 20:10:04,873  INFO EventsManagerImpl:144 adding Event-Handler: org.matsim.core.events.algorithms.EventWriterXML
-2020-11-11 20:10:04,873  INFO EventsManagerImpl:148   org.matsim.core.events.algorithms.EventWriter
-2020-11-11 20:10:04,874  INFO EventsManagerImpl:148   org.matsim.core.events.handler.BasicEventHandler
-2020-11-11 20:10:04,874  INFO EventsManagerImpl:207     > org.matsim.api.core.v01.events.Event
-2020-11-11 20:10:04,875  INFO EventsManagerImpl:156 
-2020-11-11 20:10:04,876  INFO ControlerListenerManagerImpl:224 calling notifyBeforeMobsim on org.matsim.core.controler.corelisteners.PlansDumpingImpl
-2020-11-11 20:10:04,876  INFO PlansDumpingImpl:76 dumping plans...
-2020-11-11 20:10:04,881  WARN ObjectAttributesConverter:75 No AttributeConverter found for class java.util.HashMap. Not all attribute values can be converted.
-2020-11-11 20:10:04,882  INFO Counter:69 [PopulationWriter] dumped person # 1
-2020-11-11 20:10:04,883  INFO Counter:69 [PopulationWriter] dumped person # 2
-2020-11-11 20:10:04,883  INFO Counter:69 [PopulationWriter] dumped person # 4
-2020-11-11 20:10:04,884  INFO Counter:69 [PopulationWriter] dumped person # 8
-2020-11-11 20:10:04,886  INFO Counter:69 [PopulationWriter] dumped person # 16
-2020-11-11 20:10:04,888  INFO Counter:69 [PopulationWriter] dumped person # 32
-2020-11-11 20:10:04,891  INFO Counter:69 [PopulationWriter] dumped person # 64
-2020-11-11 20:10:04,895  INFO PopulationWriter:144 Population written to: test/output/org/matsim/project/RunMatsimTest/test/ITERS/it.0/0.plans.xml.gz
-2020-11-11 20:10:04,896  INFO Counter:74 [PopulationWriter] dumped person # 100
-2020-11-11 20:10:04,896  INFO PlansDumpingImpl:93 finished plans dump.
-2020-11-11 20:10:04,896  INFO ControlerListenerManagerImpl:229 calling notifyBeforeMobsim on org.matsim.core.population.VspPlansCleaner
-2020-11-11 20:10:04,897  INFO ControlerListenerManagerImpl:232 [it.0] all ControlerBeforeMobsimListeners called.
-2020-11-11 20:10:04,898  INFO Counter:69 [PersonPrepareForSim] handled person # 1
-2020-11-11 20:10:04,898  INFO Counter:69 [PersonPrepareForSim] handled person # 2
-2020-11-11 20:10:04,899  INFO Counter:69 [PersonPrepareForSim] handled person # 4
-2020-11-11 20:10:04,899  INFO Counter:69 [PersonPrepareForSim] handled person # 8
-2020-11-11 20:10:04,899  INFO Counter:69 [PersonPrepareForSim] handled person # 16
-2020-11-11 20:10:04,899  INFO Counter:69 [PersonPrepareForSim] handled person # 32
-2020-11-11 20:10:04,900  INFO Counter:69 [PersonPrepareForSim] handled person # 64
-2020-11-11 20:10:04,904  INFO Counter:74 [PersonPrepareForSim] handled person # 100
-2020-11-11 20:10:04,981  INFO MobsimListenerManager:49 calling addQueueSimulationListener
-2020-11-11 20:10:04,981  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimInitializedListener
-2020-11-11 20:10:04,981  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimListener
-2020-11-11 20:10:04,982  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.contrib.otfvis.OTFVisLiveModule$OTFVisMobsimListener
-2020-11-11 20:10:04,982  INFO MobsimListenerManager:49 calling addQueueSimulationListener
-2020-11-11 20:10:04,982  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.vis.snapshotwriters.SnapshotWriterManager
-2020-11-11 20:10:04,983  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimInitializedListener
-2020-11-11 20:10:04,983  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimListener
-2020-11-11 20:10:04,983  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimBeforeCleanupListener
-2020-11-11 20:10:04,984  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimAfterSimStepListener
-2020-11-11 20:10:04,995  WARN QueueWithBuffer:387 Link 1 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
-2020-11-11 20:10:04,997  WARN QueueWithBuffer:387 Link 20 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
-2020-11-11 20:10:04,998  WARN QueueWithBuffer:387 Link 21 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
-2020-11-11 20:10:04,998  WARN QueueWithBuffer:387 Link 22 too small: enlarge storage capacity from: 4666.666666666667 Vehicles to: 12598.99208063355 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
-2020-11-11 20:10:04,999  WARN QueueWithBuffer:387 Link 23 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
-2020-11-11 20:10:05,003  INFO QSimProvider:102 Added MobsimEngine class org.matsim.core.mobsim.qsim.ActivityEngineDefaultImpl
-2020-11-11 20:10:05,004  INFO QSimProvider:108 Added Activityhandler class org.matsim.core.mobsim.qsim.ActivityEngineDefaultImpl
-2020-11-11 20:10:05,004  INFO QSimProvider:114 Added DepartureHandler class org.matsim.core.mobsim.qsim.qnetsimengine.VehicularDepartureHandler
-2020-11-11 20:10:05,004  INFO QSimProvider:102 Added MobsimEngine class org.matsim.core.mobsim.qsim.qnetsimengine.QNetsimEngine
-2020-11-11 20:10:05,004  INFO QSimProvider:102 Added MobsimEngine class org.matsim.core.mobsim.qsim.DefaultTeleportationEngine
-2020-11-11 20:10:05,005  INFO QSimProvider:114 Added DepartureHandler class org.matsim.core.mobsim.qsim.DefaultTeleportationEngine
-2020-11-11 20:10:05,005  INFO QSimProvider:120 Added AgentSource class org.matsim.core.mobsim.qsim.agents.PopulationAgentSource
-2020-11-11 20:10:05,005  INFO MobsimListenerManager:49 calling addQueueSimulationListener
-2020-11-11 20:10:05,006  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimListener
-2020-11-11 20:10:05,006  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimBeforeSimStepListener
-2020-11-11 20:10:05,006  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.qsim.messagequeueengine.MessageQueueEngine
-2020-11-11 20:10:05,006  INFO QSimProvider:126 Added MobsimListener class org.matsim.core.mobsim.qsim.messagequeueengine.MessageQueueEngine
-2020-11-11 20:10:05,015  INFO QNetsimEngine:506 Assigned 15 nodes and 23 links to QSimEngineRunner #0
-2020-11-11 20:10:05,073  INFO MobsimListenerManager:49 calling addQueueSimulationListener
-2020-11-11 20:10:05,074  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimBeforeCleanupListener
-2020-11-11 20:10:05,074  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimListener
-2020-11-11 20:10:05,074  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.PlayPauseSimulationControl$PlayPauseMobsimListener
-2020-11-11 20:10:05,074  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimBeforeSimStepListener
-2020-11-11 20:10:05,075  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimAfterSimStepListener
-2020-11-11 20:10:05,313  INFO EventsManagerImpl:134  event # 1
-2020-11-11 20:10:05,321  INFO EventsManagerImpl:134  event # 4
-2020-11-11 20:10:05,322  INFO QNetsimEngine:346 SIMULATION (QNetsimEngine) AT 05:58:30 : #links=0 #nodes=1
-2020-11-11 20:10:05,324  INFO QSim:531 SIMULATION (NEW QSim) AT 05:58:30 : #Veh=100 lost=0 simT=0.0s realT=0s; (s/r): 0.0
+2020-11-22 19:07:58,027  INFO ControlerUtils:63 Complete config dump done.
+2020-11-22 19:07:58,027  INFO ControlerUtils:64 Checking consistency of config...
+2020-11-22 19:07:58,028  INFO VspConfigConsistencyCheckerImpl:58 NOT running vsp config consistency check because vsp defaults checking level is set to IGNORE
+2020-11-22 19:07:58,032  INFO ControlerUtils:66 Checking consistency of config done.
+2020-11-22 19:07:58,034  WARN XY2LinksForFacilities:50 There is no link for at least a facility. Assigning links for such facilities from coords.
+2020-11-22 19:07:58,034  WARN XY2LinksForFacilities:51  This message given only once.
+2020-11-22 19:07:58,035  INFO NetworkImpl:425 building QuadTree for nodes: xrange(-20001.0,5001.0); yrange(-10001.0,5926.0)
+2020-11-22 19:07:58,037  INFO NetworkImpl:434 Building QuadTree took 0.003 seconds.
+2020-11-22 19:07:58,039  WARN PrepareForSimImpl:191 'usePersonIdForMissingVehicleId' is deprecated. It will be removed soon.
+2020-11-22 19:07:58,040  INFO Counter:69 [VehiclesImpl] added vehicle # 1
+2020-11-22 19:07:58,040  INFO Counter:69 [VehiclesImpl] added vehicle # 2
+2020-11-22 19:07:58,041  INFO Counter:69 [VehiclesImpl] added vehicle # 4
+2020-11-22 19:07:58,041  INFO Counter:69 [VehiclesImpl] added vehicle # 8
+2020-11-22 19:07:58,041  INFO Counter:69 [VehiclesImpl] added vehicle # 16
+2020-11-22 19:07:58,042  INFO Counter:69 [VehiclesImpl] added vehicle # 32
+2020-11-22 19:07:58,043  INFO Counter:69 [VehiclesImpl] added vehicle # 64
+2020-11-22 19:07:58,049  INFO Counter:69 [PersonPrepareForSim] handled person # 2
+2020-11-22 19:07:58,049  INFO Counter:69 [PersonPrepareForSim] handled person # 1
+2020-11-22 19:07:58,050  INFO Counter:69 [PersonPrepareForSim] handled person # 4
+2020-11-22 19:07:58,050  INFO Counter:69 [PersonPrepareForSim] handled person # 8
+2020-11-22 19:07:58,051  INFO Counter:69 [PersonPrepareForSim] handled person # 16
+2020-11-22 19:07:58,051  INFO Counter:69 [PersonPrepareForSim] handled person # 32
+2020-11-22 19:07:58,052  INFO Counter:69 [PersonPrepareForSim] handled person # 64
+2020-11-22 19:07:58,055  INFO Counter:74 [PersonPrepareForSim] handled person # 100
+2020-11-22 19:07:58,055  INFO AbstractController:124 ###################################################
+2020-11-22 19:07:58,056  INFO AbstractController:125 ### ITERATION 0 BEGINS
+2020-11-22 19:07:58,056  INFO ControlerListenerManagerImpl:145 calling notifyIterationStarts on org.matsim.analysis.LegHistogramListener
+2020-11-22 19:07:58,057  INFO ControlerListenerManagerImpl:145 calling notifyIterationStarts on org.matsim.analysis.LinkStatsControlerListener
+2020-11-22 19:07:58,057  INFO ControlerListenerManagerImpl:145 calling notifyIterationStarts on org.matsim.core.replanning.ReplanningContextImpl
+2020-11-22 19:07:58,057  INFO ControlerListenerManagerImpl:145 calling notifyIterationStarts on org.matsim.core.scoring.ExperiencedPlansServiceImpl$1
+2020-11-22 19:07:58,058  INFO ControlerListenerManagerImpl:145 calling notifyIterationStarts on org.matsim.core.scoring.ScoringFunctionsForPopulation$1
+2020-11-22 19:07:58,069  INFO ControlerListenerManagerImpl:148 [it.0] all ControlerIterationStartsListeners called.
+2020-11-22 19:07:58,070  INFO ControlerListenerManagerImpl:224 calling notifyBeforeMobsim on org.matsim.core.controler.corelisteners.EventsHandlingImpl
+2020-11-22 19:07:58,070  INFO EventsManagerImpl:170 resetting Event-Handlers
+2020-11-22 19:07:58,070  INFO EventsManagerImpl:177   org.matsim.core.trafficmonitoring.TravelTimeCalculator
+2020-11-22 19:07:58,071  INFO EventsManagerImpl:177   org.matsim.core.scoring.EventsToLegsAndActivities
+2020-11-22 19:07:58,071  INFO EventsManagerImpl:177   org.matsim.analysis.VolumesAnalyzer
+2020-11-22 19:07:58,071  INFO EventsManagerImpl:177   org.matsim.core.scoring.ScoringFunctionsForPopulation
+2020-11-22 19:07:58,072  INFO EventsManagerImpl:177   org.matsim.analysis.LegHistogram
+2020-11-22 19:07:58,072  INFO EventsManagerImpl:177   org.matsim.analysis.CalcLegTimes
+2020-11-22 19:07:58,074  INFO EventsManagerImpl:144 adding Event-Handler: org.matsim.core.events.algorithms.EventWriterXML
+2020-11-22 19:07:58,075  INFO EventsManagerImpl:148   org.matsim.core.events.algorithms.EventWriter
+2020-11-22 19:07:58,075  INFO EventsManagerImpl:148   org.matsim.core.events.handler.BasicEventHandler
+2020-11-22 19:07:58,075  INFO EventsManagerImpl:207     > org.matsim.api.core.v01.events.Event
+2020-11-22 19:07:58,075  INFO EventsManagerImpl:156 
+2020-11-22 19:07:58,076  INFO EventsManagerImpl:144 adding Event-Handler: org.matsim.core.events.algorithms.EventWriterXML
+2020-11-22 19:07:58,076  INFO EventsManagerImpl:148   org.matsim.core.events.algorithms.EventWriter
+2020-11-22 19:07:58,076  INFO EventsManagerImpl:148   org.matsim.core.events.handler.BasicEventHandler
+2020-11-22 19:07:58,076  INFO EventsManagerImpl:207     > org.matsim.api.core.v01.events.Event
+2020-11-22 19:07:58,076  INFO EventsManagerImpl:156 
+2020-11-22 19:07:58,077  INFO ControlerListenerManagerImpl:224 calling notifyBeforeMobsim on org.matsim.core.controler.corelisteners.PlansDumpingImpl
+2020-11-22 19:07:58,077  INFO PlansDumpingImpl:76 dumping plans...
+2020-11-22 19:07:58,081  WARN ObjectAttributesConverter:75 No AttributeConverter found for class java.util.HashMap. Not all attribute values can be converted.
+2020-11-22 19:07:58,081  INFO Counter:69 [PopulationWriter] dumped person # 1
+2020-11-22 19:07:58,082  INFO Counter:69 [PopulationWriter] dumped person # 2
+2020-11-22 19:07:58,082  INFO Counter:69 [PopulationWriter] dumped person # 4
+2020-11-22 19:07:58,083  INFO Counter:69 [PopulationWriter] dumped person # 8
+2020-11-22 19:07:58,084  INFO Counter:69 [PopulationWriter] dumped person # 16
+2020-11-22 19:07:58,087  INFO Counter:69 [PopulationWriter] dumped person # 32
+2020-11-22 19:07:58,093  INFO Counter:69 [PopulationWriter] dumped person # 64
+2020-11-22 19:07:58,097  INFO PopulationWriter:144 Population written to: test/output/org/matsim/project/RunMatsimTest/test/ITERS/it.0/0.plans.xml.gz
+2020-11-22 19:07:58,098  INFO Counter:74 [PopulationWriter] dumped person # 100
+2020-11-22 19:07:58,098  INFO PlansDumpingImpl:93 finished plans dump.
+2020-11-22 19:07:58,099  INFO ControlerListenerManagerImpl:229 calling notifyBeforeMobsim on org.matsim.core.population.VspPlansCleaner
+2020-11-22 19:07:58,099  INFO ControlerListenerManagerImpl:232 [it.0] all ControlerBeforeMobsimListeners called.
+2020-11-22 19:07:58,101  INFO Counter:69 [PersonPrepareForSim] handled person # 1
+2020-11-22 19:07:58,102  INFO Counter:69 [PersonPrepareForSim] handled person # 2
+2020-11-22 19:07:58,102  INFO Counter:69 [PersonPrepareForSim] handled person # 4
+2020-11-22 19:07:58,102  INFO Counter:69 [PersonPrepareForSim] handled person # 8
+2020-11-22 19:07:58,102  INFO Counter:69 [PersonPrepareForSim] handled person # 16
+2020-11-22 19:07:58,103  INFO Counter:69 [PersonPrepareForSim] handled person # 32
+2020-11-22 19:07:58,106  INFO Counter:69 [PersonPrepareForSim] handled person # 64
+2020-11-22 19:07:58,106  INFO Counter:74 [PersonPrepareForSim] handled person # 100
+2020-11-22 19:07:58,203  INFO MobsimListenerManager:49 calling addQueueSimulationListener
+2020-11-22 19:07:58,204  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimInitializedListener
+2020-11-22 19:07:58,205  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimListener
+2020-11-22 19:07:58,205  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.contrib.otfvis.OTFVisLiveModule$OTFVisMobsimListener
+2020-11-22 19:07:58,205  INFO MobsimListenerManager:49 calling addQueueSimulationListener
+2020-11-22 19:07:58,206  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.vis.snapshotwriters.SnapshotWriterManager
+2020-11-22 19:07:58,206  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimInitializedListener
+2020-11-22 19:07:58,207  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimListener
+2020-11-22 19:07:58,207  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimBeforeCleanupListener
+2020-11-22 19:07:58,207  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimAfterSimStepListener
+2020-11-22 19:07:58,218  WARN QueueWithBuffer:387 Link 1 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2020-11-22 19:07:58,220  WARN QueueWithBuffer:387 Link 20 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2020-11-22 19:07:58,221  WARN QueueWithBuffer:387 Link 21 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2020-11-22 19:07:58,221  WARN QueueWithBuffer:387 Link 22 too small: enlarge storage capacity from: 4666.666666666667 Vehicles to: 12598.99208063355 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2020-11-22 19:07:58,222  WARN QueueWithBuffer:387 Link 23 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2020-11-22 19:07:58,230  INFO QSimProvider:102 Added MobsimEngine class org.matsim.core.mobsim.qsim.ActivityEngineDefaultImpl
+2020-11-22 19:07:58,230  INFO QSimProvider:108 Added Activityhandler class org.matsim.core.mobsim.qsim.ActivityEngineDefaultImpl
+2020-11-22 19:07:58,230  INFO QSimProvider:114 Added DepartureHandler class org.matsim.core.mobsim.qsim.qnetsimengine.VehicularDepartureHandler
+2020-11-22 19:07:58,231  INFO QSimProvider:102 Added MobsimEngine class org.matsim.core.mobsim.qsim.qnetsimengine.QNetsimEngine
+2020-11-22 19:07:58,231  INFO QSimProvider:102 Added MobsimEngine class org.matsim.core.mobsim.qsim.DefaultTeleportationEngine
+2020-11-22 19:07:58,231  INFO QSimProvider:114 Added DepartureHandler class org.matsim.core.mobsim.qsim.DefaultTeleportationEngine
+2020-11-22 19:07:58,232  INFO QSimProvider:120 Added AgentSource class org.matsim.core.mobsim.qsim.agents.PopulationAgentSource
+2020-11-22 19:07:58,232  INFO MobsimListenerManager:49 calling addQueueSimulationListener
+2020-11-22 19:07:58,232  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimListener
+2020-11-22 19:07:58,233  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimBeforeSimStepListener
+2020-11-22 19:07:58,233  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.qsim.messagequeueengine.MessageQueueEngine
+2020-11-22 19:07:58,233  INFO QSimProvider:126 Added MobsimListener class org.matsim.core.mobsim.qsim.messagequeueengine.MessageQueueEngine
+2020-11-22 19:07:58,254  INFO QNetsimEngine:506 Assigned 15 nodes and 23 links to QSimEngineRunner #0
+2020-11-22 19:07:58,306  INFO MobsimListenerManager:49 calling addQueueSimulationListener
+2020-11-22 19:07:58,307  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimBeforeCleanupListener
+2020-11-22 19:07:58,307  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimListener
+2020-11-22 19:07:58,307  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.PlayPauseSimulationControl$PlayPauseMobsimListener
+2020-11-22 19:07:58,308  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimBeforeSimStepListener
+2020-11-22 19:07:58,308  INFO MobsimListenerManager:53   assigned class org.matsim.core.mobsim.framework.listeners.MobsimListener to interface org.matsim.core.mobsim.framework.listeners.MobsimAfterSimStepListener
+2020-11-22 19:07:58,554  INFO EventsManagerImpl:134  event # 1
+2020-11-22 19:07:58,592  INFO EventsManagerImpl:134  event # 4
+2020-11-22 19:07:58,598  INFO QNetsimEngine:346 SIMULATION (QNetsimEngine) AT 05:58:30 : #links=0 #nodes=1
+2020-11-22 19:07:58,603  INFO QSim:531 SIMULATION (NEW QSim) AT 05:58:30 : #Veh=100 lost=0 simT=0.0s realT=0s; (s/r): 0.0

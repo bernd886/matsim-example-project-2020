@@ -13,7 +13,7 @@
 		<!-- release -->
 		<!-- <matsim.version>12.0</matsim.version> -->
 
-		<!-- smapshot release -->
+		<!-- snapshot release -->
 		<!--<matsim.version>0.13.0-SNAPSHOT</matsim.version>-->
 
 		<!-- weekly release -->
@@ -130,6 +130,7 @@
 					<downloadJavadocs>true</downloadJavadocs>
 				</configuration>
 			</plugin>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
