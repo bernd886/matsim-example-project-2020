@@ -44,7 +44,7 @@ import static org.matsim.core.config.groups.ControlerConfigGroup.*;
 /**
  * @see org.matsim.contrib.freight
  */
-public class MyRunFreightExample {
+public class MyRunFreightExampleV13x {
 
     private static final URL scenarioUrl ;
     static{

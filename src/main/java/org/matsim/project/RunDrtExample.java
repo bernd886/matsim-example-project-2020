@@ -82,7 +82,7 @@ class RunDrtExample{
             DrtConfigGroup drtConfig = new DrtConfigGroup();
             drtConfig.setMode( DRT_A );
             drtConfig.setStopDuration(60.);
-//            increase by 100
+            // increase by 100
             drtConfig.setMaxWaitTime(90000.);
             drtConfig.setMaxTravelTimeAlpha(1.3);
             drtConfig.setMaxTravelTimeBeta(10. * 60.);
